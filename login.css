@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #89d0da;
+}
+
+.wrapper{
+    padding: 0 20px 0 20px;
+}
+
+.row{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 2px #bebebe;
+}
+
+.side-image{
+    background: url("img/login-panel-theme.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+   
+}
+
+.login{
+    height: 100%;
+    background: #FFF;
+}
+
+.login form {
+    font-size: 20px;
+    background-color: #FFF;
+    padding: 20px;
+
+}
+
+.login form .form-items{
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.login form input[type="submit"]:hover{
+    background-color: #FFF;
+    color: #89d0da;
+}
+
+
+
+a{
+    color:#89d0da;
+}
+.register form {
+    font-size: 18px;
+    background-color: #FFF;
+    padding: 30px;
+}
+
+.form-check{
+    margin-bottom: 15px;
+}
+.register form input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.register form input[type="submit"]:hover{
+    background-color: #FFF;
+    color: #89d0da;
+}
