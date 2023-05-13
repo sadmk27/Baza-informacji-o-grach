@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #89d0da;
+    background-color: #000;
 }
 
 .wrapper{
@@ -20,8 +20,8 @@ body{
     width: 900px;
     height: 550px;
     border-radius: 10px;
-    background: #FFF;
-    box-shadow: 2px 2px #bebebe;
+    background: rgb(33, 37, 41);
+    box-shadow: 2px 2px #000;
 }
 
 .side-image{
@@ -37,37 +37,46 @@ body{
 
 .login{
     height: 100%;
-    background: #FFF;
+    background: r;
 }
 
 .login form {
     font-size: 20px;
-    background-color: #FFF;
+    background-color: rgb(33, 37, 41);
     padding: 20px;
-
+    color:#f8f9fa;
 }
 
 .login form .form-items{
     margin-bottom: 12px;
 }
 
+.login form input[type="checkbox"]:checked{
+    background-color: rgb(33, 37, 41);
+    color: #000;
+}
+
 .login form input[type="submit"]{
     font-size: 20px;
     margin-top: 15px;
+    background: #FFFF00;
+    color: #000;
+    font-weight: 500;
 }
 .login form input[type="submit"]:hover{
-    background-color: #FFF;
-    color: #89d0da;
+    background-color: #f8f9fa;
+    color:#000;
 }
 
 
 
 a{
-    color:#89d0da;
+    color:#FFFF00;
 }
 .register form {
     font-size: 18px;
-    background-color: #FFF;
+    background-color: rgb(33, 37, 41);
+    color:#f8f9fa;
     padding: 30px;
 }
 
@@ -77,8 +86,15 @@ a{
 .register form input[type="submit"]{
     font-size: 20px;
     margin-top: 15px;
+    background: #FFFF00;
+    color: #000;
+    font-weight: 500;
 }
 .register form input[type="submit"]:hover{
-    background-color: #FFF;
-    color: #89d0da;
+    background-color: #f8f9fa;
+    color:#000;
+}
+.register form input[type="radio"]:checked{
+    background-color: rgb(33, 37, 41);
+    border:#FFFF00;
 }
