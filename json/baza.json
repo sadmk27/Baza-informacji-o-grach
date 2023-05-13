@@ -1,0 +1,214 @@
+{
+    "Gry": [
+      {
+        "title": "The Witcher 3: Wild Hunt",
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "release_date": "2015-05-19"
+      },
+      {
+        "title": "Grand Theft Auto V",
+        "developer": "Rockstar North",
+        "publisher": "Rockstar Games",
+        "release_date": "2013-09-17"
+      },
+      {
+        "title": "Portal 2",
+        "developer": "Valve Corporation",
+        "publisher": "Valve Corporation",
+        "release_date": "2011-04-19"
+      },
+      {
+        "title": "The Elder Scrolls V: Skyrim",
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "release_date": "2011-11-11"
+      },
+      {
+        "title": "Red Dead Redemption 2",
+        "developer": "Rockstar Studios",
+        "publisher": "Rockstar Games",
+        "release_date": "2018-10-26"
+      },
+      {
+        "title": "BioShock Infinite",
+        "developer": "Irrational Games",
+        "publisher": "2K Games",
+        "release_date": "2013-03-26"
+      },
+      {
+        "title": "The Last of Us",
+        "developer": "Naughty Dog",
+        "publisher": "Sony Computer Entertainment",
+        "release_date": "2013-06-14"
+      },
+      {
+        "title": "Half-Life 2",
+        "developer": "Valve Corporation",
+        "publisher": "Valve Corporation",
+        "release_date": "2004-11-16"
+      },
+      {
+        "title": "Mass Effect 2",
+        "developer": "BioWare",
+        "publisher": "Electronic Arts",
+        "release_date": "2010-01-26"
+      },
+      {
+        "title": "Dark Souls III",
+        "developer": "FromSoftware",
+        "publisher": "Bandai Namco Entertainment",
+        "release_date": "2016-04-12"
+      },
+      {
+        "title": "Minecraft",
+        "developer": "Mojang Studios",
+        "publisher": "Mojang Studios",
+        "release_date": "2011-11-18"
+      },
+      {
+        "title": "Fortnite",
+        "developer": "Epic Games",
+        "publisher": "Epic Games",
+        "release_date": "2017-07-25"
+      },
+      {
+        "title": "Counter-Strike: Global Offensive",
+        "developer": "Valve Corporation, Hidden Path Entertainment",
+        "publisher": "Valve Corporation",
+        "release_date": "2012-08-21"
+      },
+      {
+        "title": "Fallout 4",
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "release_date": "2015-11-10"
+      },
+      {
+        "title": "Halo: Combat Evolved",
+        "developer": "Bungie",
+        "publisher": "Microsoft Game Studios",
+        "release_date": "2001-11-15"
+      },
+      {
+        "title": "God of War",
+        "developer": "SIE Santa Monica Studio",
+        "publisher": "Sony Interactive Entertainment",
+        "release_date": "2018-04-20"
+    },
+    {
+    "title": "Assassin's Creed Origins",
+    "developer": "Ubisoft Montreal",
+    "publisher": "Ubisoft",
+    "release_date": "2017-10-27"
+    },
+    {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "release_date": "2017-03-03"
+    },
+    {
+    "title": "Overwatch",
+    "developer": "Blizzard Entertainment",
+    "publisher": "Blizzard Entertainment",
+    "release_date": "2016-05-24"
+    },
+    {
+    "title": "FIFA 21",
+    "developer": "EA Vancouver",
+    "publisher": "Electronic Arts",
+    "release_date": "2020-10-09"
+    },
+    {
+    "title": "Madden NFL 21",
+    "developer": "EA Tiburon",
+    "publisher": "Electronic Arts",
+    "release_date": "2020-08-28"
+    },
+    {
+    "title": "NBA 2K21",
+    "developer": "Visual Concepts",
+    "publisher": "2K Sports",
+    "release_date": "2020-09-04"
+    },
+    {
+    "title": "Call of Duty: Modern Warfare",
+    "developer": "Infinity Ward",
+    "publisher": "Activision",
+    "release_date": "2019-10-25"
+    },
+    {
+    "title": "DOOM Eternal",
+    "developer": "id Software",
+    "publisher": "Bethesda Softworks",
+    "release_date": "2020-03-20"
+    },
+    {
+    "title": "Sekiro: Shadows Die Twice",
+    "developer": "FromSoftware",
+    "publisher": "Activision",
+    "release_date": "2019-03-22"
+    },
+    {
+    "title": "Death Stranding",
+    "developer": "Kojima Productions",
+    "publisher": "Sony Interactive Entertainment",
+    "release_date": "2019-11-08"
+    },
+    {
+    "title": "Horizon Zero Dawn",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Interactive Entertainment",
+    "release_date": "2017-02-28"
+    },
+    {
+    "title": "Uncharted 4: A Thief's End",
+    "developer": "Naughty Dog",
+    "publisher": "Sony Interactive Entertainment",
+    "release_date": "2016-05-10"
+    },
+    {
+    "title": "Resident Evil 7: Biohazard",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "release_date": "2017-01-24"
+    },
+    {
+    "title": "Star Wars Jedi: Fallen Order",
+    "developer": "Respawn Entertainment",
+    "publisher": "Electronic Arts",
+    "release_date": "2019-11-15"
+    },
+    {
+    "title": "The Sims 4",
+    "developer": "Maxis",
+    "publisher": "Electronic Arts",
+    "release_date": "2014-09-02"
+    },
+    {
+    "title": "Civilization VI",
+    "developer": "Firaxis Games",
+    "publisher": "2K Games",
+    "release_date": "2016-10-21"
+    },
+    {
+    "title": "Stardew Valley",
+    "developer": "ConcernedApe",
+    "publisher": "Chucklefish",
+    "release_date": "2016-02-26"
+    },
+    {
+    "title": "Fortnite",
+    "developer": "Epic Games",
+    "publisher": "Epic Games",
+    "release_date": "2017-07-25"
+    },
+    {
+    "title": "PlayerUnknown's Battlegrounds",
+    "developer": "PUBG Corporation",
+    "publisher": "PUBG Corporation",
+    "release_date": "2017-12-20"
+    }
+]
+}
