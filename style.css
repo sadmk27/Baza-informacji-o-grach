@@ -440,6 +440,161 @@ footer{
     padding-top: 60px;
 }
 
+/* GamePage */
+.content-game-field{
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    background: rgb(33, 37, 41);
+}
+.content-field-header{
+    padding-left: 40px;
+    padding-top: 20px;
+    min-height: 30vh;
+    background-image: url(/img/login-panel-theme.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content-field-header .space{
+    height: 40%;
+}
+.content-field-header h2{
+    width: 100%;
+   
+}
+.content-field-header  p.game-txt{
+    color:#FFFF00;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content-field-header .details{
+    height: 60%;
+}
+.content-field-header .details h2{
+    width: 100%;
+    color:#f8f9fa;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content-field-header .details span{
+    width: 100%;
+    display: flex;
+    color: #f8f9fa;
+}
+.content-field-header .details p.details-info{
+    color: #FFFF00;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+
+.content-field-header .ratio{
+    width: 100%;
+    padding: 10px;
+}
+
+.content-field-header .ratio .ratio-icon{
+    width: 45px;
+    height: 50px;
+    border: 1px solid #f8f9fa;
+    border-right: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    float: left;
+    color: #FFFF00;
+    background-color: #000;
+}
+.content-field-header .ratio .ratio-icon svg{
+    width: 30px;
+    height:30px;
+}
+.content-field-header .ratio-txt{
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f8f9fa;
+    border-left: none;
+    background-color: #000;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+
+}
+.content-field-header .ratio-txt p{
+    color:#f8f9fa;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 100%;
+}
+
+.content-field-header .ratio-txt .rating{
+    font-size: 2rem;
+    width: 70px;
+}
+.content-field-header .ratio-txt .ratings-number{
+    width: 70px;
+}
+.game-card{
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+.raiting-form{
+    margin-top: 10px;
+    background: #000;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    min-height: 288px;
+    border-radius: 10px;
+    color:#f8f9fa;
+    box-shadow: -1px -1px 2px rgba(255,255,255,0.75),
+    inset -1px -1px 5px rgba(255,255,255,0.75),
+    8px 30px 30px rgba(0,0,0,0.25),
+    inset -2px -2px 30px rgba(0,0,0,0.25);
+}
+.raiting-stars input{
+    display: none;
+}
+.raiting-stars label{
+    font-size: 30px;
+    color:rgb(33,37,41);
+    padding: 10px;
+    float: right;
+    transition: all 0.2 ease;
+}
+.raiting-stars input:not(:checked) ~ label:hover,
+.raiting-stars input:not(:checked) ~ label:hover ~ label{
+    color:#FFFF00;
+}
+.raiting-stars input:checked ~ label{
+    color:#FFFF00;
+}
+
+#comment-btn{
+    color:#000;
+    background-color: #FFFF00;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.comment-filed label{
+    color: #f8f9fa;
+    padding-bottom: 10px;
+}
+
+
+
+
 @media only screen and (max-width:1750px){
     .slider{
         width: 100%;
@@ -492,6 +647,9 @@ footer{
 }
 
 @media only screen and (max-width: 767px){
+    .content-game-field{
+        width: 100%;
+    }
     .header-title{
         text-align: center;
         padding-left: 0;
