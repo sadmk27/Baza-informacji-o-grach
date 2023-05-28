@@ -44,6 +44,75 @@ main{
     margin: auto;
 }
 
+nav .container{
+    width: 50px;
+    height: 50px;
+    
+}
+nav .image_outer_container{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+nav .image_inner_container{
+    border-radius: 50%;
+    padding: 2px;
+    background: #FFFF00; 
+
+ 
+}
+nav .image_inner_container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid rgb(33, 37, 41);
+}
+
+.account-modal{
+    display: none;
+    overflow: hidden;
+}
+.show-account{
+    display: block;
+    position: absolute;
+    left: -50%;
+    top: -50px;
+    height: 250px;
+    width: 250px;
+    background: #000;
+    z-index: 9999;
+    position: sticky;
+    border-radius: 5px;
+    border: none;
+}
+.close-icon{
+    position: absolute;
+    right: 5px;
+    color:#f8f9fa;
+}
+.account-modal .account-name{
+    padding: 5px;
+    color:#f8f9fa;
+}
+.account-modal .list-group li{
+    background: rgb(33, 37, 41);
+    color:#f8f9fa;
+    text-align: center;
+    cursor: pointer;
+}
+.account-modal .list-group li:last-child{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.account-modal .list-group li:hover{
+    border-bottom-color:#FFFF00 ;
+}
+.account-modal a{
+    text-decoration: none;
+}
+
+
 
 /* SLIDER GŁÓWNY Z KARTAMI */
 .main-header{
@@ -448,6 +517,7 @@ footer{
     background: rgb(33, 37, 41);
 }
 .content-field-header{
+    margin-top: 50px;
     padding-left: 40px;
     padding-top: 20px;
     min-height: 30vh;
@@ -592,6 +662,25 @@ footer{
     padding-bottom: 10px;
 }
 
+.comment-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color:rgb(33, 37, 41);
+    margin-top: 10px;
+}
+.comment-section .comments{
+    width: 80%;
+    text-align: center;
+    background:#f8f9fa;
+    border-radius: 10px;
+    border:none;
+    height: 400px;
+}
+
+
 
 
 
@@ -623,6 +712,7 @@ footer{
     .slider .carousel-caption p{
         width: 100%;
     }
+    
 }
 
 @media only screen and (min-width: 767px) and (max-width: 991px){
@@ -647,9 +737,6 @@ footer{
 }
 
 @media only screen and (max-width: 767px){
-    .content-game-field{
-        width: 100%;
-    }
     .header-title{
         text-align: center;
         padding-left: 0;
