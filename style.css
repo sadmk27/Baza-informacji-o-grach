@@ -689,6 +689,27 @@ footer{
     background: #000;
 }
 
+/* Ranking page */
+
+.ranking-field{
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    margin-top: 65px;
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+img.game-cover{
+    width: 60px;
+    height: 80px;
+}
+
+.ranking-field tr{
+    flex-direction: row-reverse;
+}
+
+
 
 
 
