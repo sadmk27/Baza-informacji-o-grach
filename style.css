@@ -705,6 +705,11 @@ img.game-cover{
     height: 80px;
 }
 
+.ranking-field tr{
+    flex-direction: row-reverse;
+}
+
+
 
 
 
